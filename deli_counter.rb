@@ -13,11 +13,10 @@ def line(input)
   end 
 end 
 
-
-def take_a_number(array, name)
-  array << name 
-  binding.pry
-  puts "Welcome, #{name}. You are number #{array.index(name) + 1} in line." 
+array = ["Ada"]
+def take_a_number(array)
+  count = 0
+  puts "Welcome. You are number #{count} in line." 
 end 
 
 def now_serving(array)
