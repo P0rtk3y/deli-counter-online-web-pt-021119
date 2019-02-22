@@ -1,4 +1,5 @@
 katz_deli = []
+require 'pry'
 
 def line(input)
   update_line = ""
@@ -12,8 +13,10 @@ def line(input)
   end 
 end 
 
+
 def take_a_number(array, name)
   array << name 
+  binding.pry
   puts "Welcome, #{name}. You are number #{array.index(name) + 1} in line." 
 end 
 
